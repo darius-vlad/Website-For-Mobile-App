@@ -18,11 +18,11 @@ const featuresData = [
 ];
 
 const Features = () => (
-  <div className="gpt3__features section__padding" id="features">
-    <div className="gpt3__features-heading">
+  <div className="codely__features section__padding" id="features">
+    <div className="codely__features-heading">
       <h1 className="gradient__text">What makes Codely the best app for practicing?</h1>
     </div>
-    <div className="gpt3__features-container">
+    <div className="codely__features-container">
       {featuresData.map((item, index) => (
         <Feature title={item.title} text={item.text} key={item.title + index} />
       ))}
